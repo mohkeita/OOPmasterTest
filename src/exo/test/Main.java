@@ -15,6 +15,7 @@ public class Main {
         HealthyBurger healthyBurger =  new HealthyBurger("Bacon", 5.67);
         healthyBurger.addHamburgerAddition1("Egg", 5.43);
         healthyBurger.itemizeHamburger();
+        healthyBurger.addHealthyAddition1("Lentils", 3.41);
 
     }
 }
